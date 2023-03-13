@@ -1,7 +1,14 @@
 {
   "compilerOptions": {
+    "baseUrl": ".",
+    "lib": ["esnext"],
     "paths": {
-      "@/*": ["./src/*"]
+      "assets/*": ["./src/assets/*"],
+      "components/*": ["./src/components/*"],
+      "layouts/*": ["./src/layouts/*"],
+      "pages/*": ["./src/pages/*"],
+      "styles/*": ["./src/styles/*"],
+      "utils/*": ["./src/utils/*"]
     }
   }
 }

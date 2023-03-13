@@ -1,0 +1,84 @@
+# REPLACE_WITH_YOUR_PROJECT_NAME
+
+## 📘 About
+
+REPLACE_WITH_YOUR_PROJECT_NAME is ...
+
+## 📝 Table of Contents
+
+- [REPLACE_WITH_YOUR_PROJECT_NAME](#REPLACE_WITH_YOUR_PROJECT_NAME)
+  - [📘 About](#-about)
+  - [📝 Table of Contents](#-table-of-contents)
+  - [📦 Built With](#-built-with)
+  - [⚒ Structure](#-structure)
+  - [📋 Features](#-features)
+  - [📝 Versions](#-versions)
+    - [v0.1.0 - `YYYY-MM-DD`](#v010---yyyy-mm-dd)
+    - [Version History](#version-history)
+  - [⚙ Get Started](#-get-started)
+
+## 📦 Built With
+
+- [x] React 18
+- [x] Vite
+- [x] TailwindCSS (Class name tools)
+- [x] Ant Design v5 (Styled Component)
+- [x] Containerized with Docker (`nginx-alpine` image)
+- [x] CI/CD supported (`Jenkins` & `SonarQube`)
+
+## ⚒ Structure
+
+```mermaid
+  graph LR;
+    Requester-->REPLACE_WITH_YOUR_PROJECT_NAME
+    REPLACE_WITH_YOUR_PROJECT_NAME-->REPLACE_WITH_YOUR_APP_API
+```
+
+## 📋 Features
+
+- `/` Home Page
+
+## 📝 Versions
+
+### v0.1.0 - `YYYY-MM-DD`
+
+- Initialized
+
+### Version History
+
+... [more](./CHANGELOG.md)
+
+## ⚙ Get Started
+
+1. Initialized (don't forget to rename `my-project`)
+
+    ```bash
+    git clone REPLACE_WITH_YOUR_APP_GIT_LINK
+    ```
+
+2. Go to project folder
+
+    ```bash
+    cd REPLACE_WITH_YOUR_PROJECT_NAME
+    ```
+
+3. Set up environment by command
+
+    ```bash
+    yarn
+    ```
+
+4. Run project by command
+
+    ```bash
+    # Start dev server
+    yarn dev
+
+    # Build for production
+    yarn build
+
+    # Locally preview the production build
+    yarn preview
+    ```
+
+🌈 NextJS Template `buildingwatsize/next-antd-tailwind` – Made with ❤️ by Watsize 🌈
