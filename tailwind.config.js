@@ -2,7 +2,11 @@
 module.exports = {
   content: ["./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        sans: ["var(--font-ibm-plex-sans-thai)"],
+      },
+    },
     fontSize: {
       h1: "3.052rem",
       h2: "2.441rem",
@@ -16,4 +20,7 @@ module.exports = {
     },
   },
   plugins: [],
+  corePlugins: {
+    preflight: false,
+  },
 };

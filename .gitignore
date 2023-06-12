@@ -26,10 +26,18 @@ yarn-error.log*
 .pnpm-debug.log*
 
 # local env files
-.env*.local
+# .env*.local
+!.env*
+.env*
+!.env*.example
 
 # vercel
 .vercel
 
-.yarn/*
 .pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions

@@ -6,7 +6,7 @@ REPLACE_WITH_YOUR_PROJECT_NAME is ...
 
 ## 📝 Table of Contents
 
-- [REPLACE_WITH_YOUR_PROJECT_NAME](#REPLACE_WITH_YOUR_PROJECT_NAME)
+- [REPLACE\_WITH\_YOUR\_PROJECT\_NAME](#replace_with_your_project_name)
   - [📘 About](#-about)
   - [📝 Table of Contents](#-table-of-contents)
   - [📦 Built With](#-built-with)
@@ -19,12 +19,14 @@ REPLACE_WITH_YOUR_PROJECT_NAME is ...
 
 ## 📦 Built With
 
-- [x] React 18
-- [x] Vite
-- [x] TailwindCSS (Class name tools)
-- [x] Ant Design v5 (Styled Component)
-- [x] Containerized with Docker (`nginx-alpine` image)
+- [x] ReactJS v18.2.x
+- [x] Next.js v13.4.x
+- [x] TailwindCSS v3.3.x
+- [x] Ant Design v5.6.x
+- [x] Containerized with Docker (`node:18-alpine` image)
 - [x] CI/CD supported (`Jenkins` & `SonarQube`)
+- [x] Helm command set for k8s
+- [x] A bunch of tools/library (e.g. `axios`, `dayjs`, `pino`, etc.)
 
 ## ⚒ Structure
 
@@ -78,7 +80,7 @@ REPLACE_WITH_YOUR_PROJECT_NAME is ...
     yarn build
 
     # Locally preview the production build
-    yarn preview
+    yarn start
     ```
 
-🌈 NextJS Template `buildingwatsize/next-antd-tailwind` – Made with ❤️ by Watsize 🌈
+🌈 Next.js Template `buildingwatsize/next-antd-tailwind` – Made with ❤️ by Watsize 🌈

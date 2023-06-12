@@ -10,5 +10,6 @@
       "styles/*": ["./src/styles/*"],
       "utils/*": ["./src/utils/*"]
     }
-  }
+  },
+  "exclude": ["node_modules", ".next"]
 }

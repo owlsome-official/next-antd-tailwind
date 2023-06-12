@@ -33,8 +33,8 @@ const NavBar = ({ className }) => {
         className="flex gap-8 font-bold text-h5 select-none cursor-pointer items-center"
         onClick={handleClickHome}
       >
-        <div>
-          <Image src={logoSrc} height="50" />
+        <div className="flex items-center">
+          <Image src={logoSrc} height="50" alt="logo" />
         </div>
         <div>REPLACE_WITH_YOUR_PROJECT_NAME</div>
 

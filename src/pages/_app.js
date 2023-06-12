@@ -6,6 +6,7 @@ import "../styles/globals.css";
 const fontRegularIBMPlexSansThai = IBM_Plex_Sans_Thai({
   weight: ["400", "700"],
   subsets: ["latin"],
+  variable: "--font-ibm-plex-sans-thai",
 });
 
 function MyApp({ Component, pageProps }) {
@@ -20,7 +21,7 @@ function MyApp({ Component, pageProps }) {
       }}
     >
       <main
-        className={`${fontRegularIBMPlexSansThai.className} flex flex-col min-h-screen`}
+        className={`${fontRegularIBMPlexSansThai.variable} flex flex-col min-h-screen`}
       >
         <Component {...pageProps} />
       </main>

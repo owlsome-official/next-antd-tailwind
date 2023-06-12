@@ -3,6 +3,7 @@ const path = require("path");
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
+  output: "standalone",
   webpack: (config, { buildId, dev, isServer, defaultLoaders, webpack }) => {
     config.resolve.alias["assets"] = path.resolve(__dirname, "./src/assets/");
     config.resolve.alias["components"] = path.resolve(
@@ -14,6 +15,14 @@ const nextConfig = {
     config.resolve.alias["styles"] = path.resolve(__dirname, "./src/styles/");
     config.resolve.alias["utils"] = path.resolve(__dirname, "./src/utils/");
     return config;
+  },
+  rewrites: async () => {
+    return [
+      {
+        source: "/api/:path*",
+        destination: "http://localhost:5000/api/:path*",
+      },
+    ];
   },
 };
 
