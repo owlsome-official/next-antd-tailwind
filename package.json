@@ -1,13 +1,12 @@
 {
   "name": "next-antd-tailwind",
-  "version": "0.2.0",
-  "private": true,
+  "version": "0.2.1",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "test": "jest --watch",
+    "test": "jest --watchAll",
     "test-coverage": "NODE_ENV=test jest --coverage",
     "test:ci": "NODE_ENV=test jest --ci --coverage"
   },

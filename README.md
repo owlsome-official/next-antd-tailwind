@@ -1,4 +1,4 @@
-# ⚡ next-antd-tailwind ⚡
+# 🔺 next-antd-tailwind 🔺
 
 ## 📘 About
 
@@ -6,12 +6,13 @@ A boilerplate for Next.js integrated with Ant Design, tailwindcss and a lot of u
 
 ## 📝 Table of Contents
 
-- [⚡ next-antd-tailwind ⚡](#-next-antd-tailwind-)
+- [🔺 next-antd-tailwind 🔺](#-next-antd-tailwind-)
   - [📘 About](#-about)
   - [📝 Table of Contents](#-table-of-contents)
   - [📦 Template contains](#-template-contains)
   - [💎 Pre-loaded dependencies](#-pre-loaded-dependencies)
   - [📝 Versions (Last 2 Minor Version)](#-versions-last-2-minor-version)
+    - [v0.2.1 - `2023-06-12`](#v021---2023-06-12)
     - [v0.2.0 - `2023-06-12`](#v020---2023-06-12)
     - [v0.1.0 - `2023-03-13`](#v010---2023-03-13)
     - [Version History](#version-history)
@@ -38,6 +39,10 @@ npx tailwindcss init -p
 ```
 
 ## 📝 Versions (Last 2 Minor Version)
+
+### v0.2.1 - `2023-06-12`
+
+- Fixed jest test options (watchAll) on package.json
 
 ### v0.2.0 - `2023-06-12`
 
