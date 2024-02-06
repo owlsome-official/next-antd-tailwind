@@ -1,6 +1,6 @@
 {
   "name": "next-antd-tailwind",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -24,7 +24,8 @@
     "pino": "^8.14.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "react-loadinggg": "^1.8.1"
+    "react-loading-randomizable": "^1.0.0",
+    "sharp": "^0.33.2"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^5.16.5",

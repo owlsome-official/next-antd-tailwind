@@ -1,8 +1,11 @@
 /** @type {import('next').NextConfig} */
 const path = require("path");
 const nextConfig = {
+  compiler: {
+    removeConsole: true, // suppress all logs as default
+    reactRemoveProperties: true, // remove react properties (Default: ^data-test)
+  },
   reactStrictMode: true,
-  swcMinify: true,
   output: "standalone",
   webpack: (config, { buildId, dev, isServer, defaultLoaders, webpack }) => {
     config.resolve.alias["assets"] = path.resolve(__dirname, "./src/assets/");

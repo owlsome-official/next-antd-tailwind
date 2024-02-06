@@ -12,6 +12,7 @@ A boilerplate for Next.js integrated with Ant Design, tailwindcss and a lot of u
   - [📦 Template contains](#-template-contains)
   - [💎 Pre-loaded dependencies](#-pre-loaded-dependencies)
   - [📝 Versions (Last 2 Minor Version)](#-versions-last-2-minor-version)
+    - [v0.2.2 - `2024-02-06`](#v022---2024-02-06)
     - [v0.2.1 - `2023-06-12`](#v021---2023-06-12)
     - [v0.2.0 - `2023-06-12`](#v020---2023-06-12)
     - [v0.1.0 - `2023-03-13`](#v010---2023-03-13)
@@ -33,12 +34,16 @@ A boilerplate for Next.js integrated with Ant Design, tailwindcss and a lot of u
 ## 💎 Pre-loaded dependencies
 
 ```bash
-yarn add @ant-design/icons antd axios dayjs eslint eslint-config-next js-base64 js-cookie lodash pino react-loadinggg
+yarn add @ant-design/icons antd axios dayjs eslint eslint-config-next js-base64 js-cookie lodash pino react-loading-randomizable
 yarn add --dev @testing-library/jest-dom @testing-library/react autoprefixer jest jest-environment-jsdom postcss tailwindcss
 npx tailwindcss init -p
 ```
 
 ## 📝 Versions (Last 2 Minor Version)
+
+### v0.2.2 - `2024-02-06`
+
+- Updated dependencies
 
 ### v0.2.1 - `2023-06-12`
 
