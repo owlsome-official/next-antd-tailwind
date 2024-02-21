@@ -1,5 +1,11 @@
 # Changelog
 
+## [v0.2.6] - `2024-02-21`
+
+- Updated [Pantone Color of the year 2024](https://www.pantone.com/color-of-the-year/2024)
+
+[v0.2.6]: https://github.com/buildingwatsize/next-antd-tailwind/releases/tag/v0.2.6
+
 ## [v0.2.5] - `2024-02-21`
 
 - Updated dependencies
