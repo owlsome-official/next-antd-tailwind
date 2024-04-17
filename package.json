@@ -11,6 +11,7 @@
     "test:ci": "NODE_ENV=test jest --ci --coverage"
   },
   "dependencies": {
+    "@ant-design/cssinjs": "^1.19.1",
     "@ant-design/icons": "^5.3.6",
     "antd": "^5.16.2",
     "axios": "^1.6.8",
