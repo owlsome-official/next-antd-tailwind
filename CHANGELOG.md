@@ -1,5 +1,12 @@
 # Changelog
 
+## [v0.3.0] - `2024-04-17`
+
+- Migrated Next 14 (Still on Pages router)
+- Updated dependencies 
+
+[v0.3.0]: https://github.com/buildingwatsize/next-antd-tailwind/releases/tag/v0.3.0
+
 ## [v0.2.6] - `2024-02-21`
 
 - Updated [Pantone Color of the year 2024](https://www.pantone.com/color-of-the-year/2024)
