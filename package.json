@@ -1,6 +1,6 @@
 {
   "name": "next-antd-tailwind",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -11,17 +11,17 @@
     "test:ci": "NODE_ENV=test jest --ci --coverage"
   },
   "dependencies": {
-    "@ant-design/cssinjs": "^1.19.1",
+    "@ant-design/cssinjs": "^1.20.0",
     "@ant-design/icons": "^5.3.6",
     "antd": "^5.16.2",
     "axios": "^1.6.8",
     "dayjs": "^1.11.8",
-    "eslint": "^9.0.0",
-    "eslint-config-next": "^14.2.1",
+    "eslint": "^8",
+    "eslint-config-next": "^14.2.2",
     "js-base64": "^3.7.7",
     "js-cookie": "^3.0.5",
     "lodash": "^4.17.21",
-    "next": "14.2.1",
+    "next": "14.2.2",
     "pino": "^8.20.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",

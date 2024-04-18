@@ -1,5 +1,12 @@
 # Changelog
 
+## [v0.3.1] - `2024-04-18`
+
+- Updated dependencies 
+- Downgraded `eslint` to ^8 cause they're not yet ease compatibility for `nextjs@14.2.2`
+
+[v0.3.1]: https://github.com/buildingwatsize/next-antd-tailwind/releases/tag/v0.3.1
+
 ## [v0.3.0] - `2024-04-17`
 
 - Migrated Next 14 (Still on Pages router)
