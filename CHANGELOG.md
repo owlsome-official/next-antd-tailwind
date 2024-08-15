@@ -1,8 +1,14 @@
 # Changelog
 
+## [v0.3.2] - `2024-08-16`
+
+- Updated dependencies
+
+[v0.3.2]: https://github.com/buildingwatsize/next-antd-tailwind/releases/tag/v0.3.2
+
 ## [v0.3.1] - `2024-04-18`
 
-- Updated dependencies 
+- Updated dependencies
 - Downgraded `eslint` to ^8 cause they're not yet ease compatibility for `nextjs@14.2.2`
 
 [v0.3.1]: https://github.com/buildingwatsize/next-antd-tailwind/releases/tag/v0.3.1
