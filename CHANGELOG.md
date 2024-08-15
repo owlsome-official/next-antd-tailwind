@@ -1,6 +1,12 @@
 # Changelog
 
-## [v0.3.2] - `2024-08-16`
+## [v0.3.3] - `2024-08-15`
+
+- Updated dependencies
+
+[v0.3.3]: https://github.com/buildingwatsize/next-antd-tailwind/releases/tag/v0.3.3
+
+## [v0.3.2] - `2024-08-15`
 
 - Updated dependencies
 
