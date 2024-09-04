@@ -1,5 +1,11 @@
 # Changelog
 
+## [v0.4.1] - `2024-09-04`
+
+- Fixed known vulnerabilities via `npx yarn-audit-fix`
+
+[v0.4.1]: https://github.com/buildingwatsize/next-antd-tailwind/releases/tag/v0.4.1
+
 ## [v0.4.0] - `2024-09-04`
 
 - Added supported cacheHandler with Redis for scalable infrastructure
