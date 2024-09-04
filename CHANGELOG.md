@@ -1,5 +1,13 @@
 # Changelog
 
+## [v0.4.0] - `2024-09-04`
+
+- Added supported cacheHandler with Redis for scalable infrastructure
+- Added Prettier configuration files
+- Updated dockerignore for lean
+
+[v0.4.0]: https://github.com/buildingwatsize/next-antd-tailwind/releases/tag/v0.4.0
+
 ## [v0.3.3] - `2024-08-15`
 
 - Updated dependencies

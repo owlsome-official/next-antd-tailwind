@@ -1,10 +1,12 @@
-FROM node:18-alpine AS runner
+FROM node:20.17.0-alpine3.20 AS runner
+
 WORKDIR /app
 
-RUN addgroup -g 1001 -S nodejs
-RUN adduser -S nextjs -u 1001
+RUN addgroup --system --gid 1001 nodejs
+RUN adduser --system --uid 1001 nextjs
 
 # should be use CDN instead (`public` and `.next/static`)
+COPY .env.local ./
 COPY ./public ./public
 
 # Automatically leverage output traces to reduce image size
@@ -16,6 +18,8 @@ USER nextjs
 
 EXPOSE 3000
 
+ENV NODE_ENV=production
 ENV PORT 3000
+ENV HOSTNAME="0.0.0.0"
 
 CMD ["node", "server.js"]

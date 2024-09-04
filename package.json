@@ -1,6 +1,6 @@
 {
   "name": "next-antd-tailwind",
-  "version": "0.3.3",
+  "version": "0.4.0",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

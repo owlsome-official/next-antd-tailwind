@@ -1,0 +1,10 @@
+node_modules
+*.DS_Store
+.next
+!.next/standalone
+!.next/static
+.gitignore
+README.md
+.dockerignore
+LICENSE
+.docker

@@ -12,6 +12,7 @@ A boilerplate for Next.js integrated with Ant Design, tailwindcss and a lot of u
   - [📦 Template contains](#-template-contains)
   - [💎 Pre-loaded dependencies](#-pre-loaded-dependencies)
   - [📝 Versions (Last 2 Minor Version)](#-versions-last-2-minor-version)
+    - [v0.4.0 - `2024-09-04`](#v040---2024-09-04)
     - [v0.3.3 - `2024-08-15`](#v033---2024-08-15)
     - [v0.3.2 - `2024-08-15`](#v032---2024-08-15)
     - [v0.3.1 - `2024-04-18`](#v031---2024-04-18)
@@ -30,10 +31,10 @@ A boilerplate for Next.js integrated with Ant Design, tailwindcss and a lot of u
 
 ## 📦 Template contains
 
-- [x] ReactJS v18.2.x
-- [x] Next.js v13.4.x
-- [x] TailwindCSS v3.3.x
-- [x] Ant Design v5.6.x
+- [x] ReactJS v18.3.x
+- [x] Next.js v14.2.x
+- [x] TailwindCSS v3.4.x
+- [x] Ant Design v5.20.x
 - [x] Containerized with Docker (`node:18-alpine` image)
 - [x] CI/CD supported (`Jenkins` & `SonarQube`)
 - [x] Helm command set for k8s
@@ -48,6 +49,12 @@ npx tailwindcss init -p
 ```
 
 ## 📝 Versions (Last 2 Minor Version)
+
+### v0.4.0 - `2024-09-04`
+
+- Added supported cacheHandler with Redis for scalable infrastructure
+- Added Prettier configuration files
+- Updated dockerignore for lean
 
 ### v0.3.3 - `2024-08-15`
 
