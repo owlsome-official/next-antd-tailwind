@@ -1,6 +1,6 @@
 {
   "name": "next-antd-tailwind",
-  "version": "0.4.1",
+  "version": "0.4.2",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -11,31 +11,31 @@
     "test:ci": "NODE_ENV=test jest --ci --coverage"
   },
   "dependencies": {
-    "@ant-design/cssinjs": "^1.21.0",
-    "@ant-design/icons": "^5.4.0",
-    "antd": "^5.20.1",
-    "axios": "^1.7.4",
-    "dayjs": "^1.11.12",
+    "@ant-design/cssinjs": "^1.21.1",
+    "@ant-design/icons": "^5.5.1",
+    "antd": "^5.20.6",
+    "axios": "^1.7.7",
+    "dayjs": "^1.11.13",
     "eslint": "^8",
-    "eslint-config-next": "^14.2.5",
+    "eslint-config-next": "^14.2.13",
     "js-base64": "^3.7.7",
     "js-cookie": "^3.0.5",
     "lodash": "^4.17.21",
-    "next": "14.2.5",
-    "pino": "^9.3.2",
+    "next": "14.2.13",
+    "pino": "^9.4.0",
     "react": "18.3.1",
     "react-dom": "18.3.1",
     "react-loading-randomizable": "^1.0.3",
-    "sharp": "^0.33.4"
+    "sharp": "^0.33.5"
   },
   "devDependencies": {
     "@testing-library/dom": "^10.4.0",
-    "@testing-library/jest-dom": "^6.4.8",
-    "@testing-library/react": "^16.0.0",
+    "@testing-library/jest-dom": "^6.5.0",
+    "@testing-library/react": "^16.0.1",
     "autoprefixer": "^10.4.20",
     "jest": "^29.5.0",
     "jest-environment-jsdom": "^29.5.0",
-    "postcss": "^8.4.41",
-    "tailwindcss": "^3.4.10"
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.12"
   }
 }

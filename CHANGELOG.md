@@ -1,5 +1,12 @@
 # Changelog
 
+## [v0.4.2] - `2024-09-20`
+
+- Fixed known vulnerabilities
+- Updated dependencies
+
+[v0.4.2]: https://github.com/buildingwatsize/next-antd-tailwind/releases/tag/v0.4.2
+
 ## [v0.4.1] - `2024-09-04`
 
 - Fixed known vulnerabilities via `npx yarn-audit-fix`
