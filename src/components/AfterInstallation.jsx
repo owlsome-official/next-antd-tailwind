@@ -2,14 +2,14 @@ const AfterInstallation = () => {
   return (
     <div
       data-testid="after-installation-container"
-      className="w-full bg-gradient-to-l from-[#fff] to-[#FFBE98] p-1.5"
+      className="w-full bg-linear-to-l from-[#fff] to-[#FFBE98] p-1.5"
     >
       <div className="bg-base-100 relative p-8">
         <sup className="absolute top-10 right-6 flex items-center gap-2 font-bold">
           <div className="h-2 w-2 bg-[#FFBE98]" />
           Pantone color of the year 2023 - Viva Magenta
         </sup>
-        <div className="bg-gradient-to-l from-[#964F4C] to-[#964F4C] bg-clip-text text-h3 font-bold text-transparent">
+        <div className="bg-linear-to-l from-[#964F4C] to-[#964F4C] bg-clip-text text-h3 font-bold text-transparent">
           After Installation
         </div>
         <div className="py-2">

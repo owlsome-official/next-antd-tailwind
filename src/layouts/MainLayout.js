@@ -14,7 +14,7 @@ const MainLayout = ({ children }) => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <NavBar />
-      <div className="flex-grow flex">{children}</div>
+      <div className="grow flex">{children}</div>
     </>
   );
 };
