@@ -12,21 +12,10 @@ A boilerplate for Next.js integrated with Ant Design, tailwindcss and a lot of u
   - [📦 Template contains](#-template-contains)
   - [💎 Pre-loaded dependencies](#-pre-loaded-dependencies)
   - [📝 Versions (Last 2 Minor Version)](#-versions-last-2-minor-version)
+    - [v0.5.0 - `2025-02-06`](#v050---2025-02-06)
     - [v0.4.2 - `2024-09-20`](#v042---2024-09-20)
     - [v0.4.1 - `2024-09-04`](#v041---2024-09-04)
     - [v0.4.0 - `2024-09-04`](#v040---2024-09-04)
-    - [v0.3.3 - `2024-08-15`](#v033---2024-08-15)
-    - [v0.3.2 - `2024-08-15`](#v032---2024-08-15)
-    - [v0.3.1 - `2024-04-18`](#v031---2024-04-18)
-    - [v0.3.0 - `2024-04-17`](#v030---2024-04-17)
-    - [v0.2.6 - `2024-02-21`](#v026---2024-02-21)
-    - [v0.2.5 - `2024-02-21`](#v025---2024-02-21)
-    - [v0.2.4 - `2024-02-07`](#v024---2024-02-07)
-    - [v0.2.3 - `2024-02-06`](#v023---2024-02-06)
-    - [v0.2.2 - `2024-02-06`](#v022---2024-02-06)
-    - [v0.2.1 - `2023-06-12`](#v021---2023-06-12)
-    - [v0.2.0 - `2023-06-12`](#v020---2023-06-12)
-    - [v0.1.0 - `2023-03-13`](#v010---2023-03-13)
     - [Version History](#version-history)
   - [📌 Get Started](#-get-started)
     - [Want some more ?](#want-some-more-)
@@ -52,6 +41,12 @@ npx tailwindcss init -p
 
 ## 📝 Versions (Last 2 Minor Version)
 
+### v0.5.0 - `2025-02-06`
+
+- Upcoming: Next 15, React 19, tailwindCSS v4, eslint 9
+- Updated dependencies
+- Audit Fixed
+
 ### v0.4.2 - `2024-09-20`
 
 - Fixed known vulnerabilities
@@ -66,57 +61,6 @@ npx tailwindcss init -p
 - Added supported cacheHandler with Redis for scalable infrastructure
 - Added Prettier configuration files
 - Updated dockerignore for lean
-
-### v0.3.3 - `2024-08-15`
-
-- Updated dependencies
-
-### v0.3.2 - `2024-08-15`
-
-- Updated dependencies
-
-### v0.3.1 - `2024-04-18`
-
-- Updated dependencies 
-- Downgraded `eslint` to ^8 cause they're not yet ease compatibility for `nextjs@14.2.2`
-
-### v0.3.0 - `2024-04-17`
-
-- Migrated Next 14 (Still on Pages router)
-- Updated dependencies 
-
-### v0.2.6 - `2024-02-21`
-
-- Updated [Pantone Color of the year 2024](https://www.pantone.com/color-of-the-year/2024)
-
-### v0.2.5 - `2024-02-21`
-
-- Updated dependencies
-
-### v0.2.4 - `2024-02-07`
-
-- Updated default csp header
-- Adjusted compiler config for non-production env
-
-### v0.2.3 - `2024-02-06`
-
-- Added default CSP (pre-defined)
-
-### v0.2.2 - `2024-02-06`
-
-- Updated dependencies
-
-### v0.2.1 - `2023-06-12`
-
-- Fixed jest test options (watchAll) on package.json
-
-### v0.2.0 - `2023-06-12`
-
-- Updated dependencies, structure, a bunch of tools/library
-
-### v0.1.0 - `2023-03-13`
-
-- Initialized Project
 
 ### Version History
 
