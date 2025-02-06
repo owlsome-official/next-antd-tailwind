@@ -33,10 +33,10 @@ A boilerplate for Next.js integrated with Ant Design, tailwindcss and a lot of u
 
 ## 📦 Template contains
 
-- [x] ReactJS v18.3.x
-- [x] Next.js v14.2.x
-- [x] TailwindCSS v3.4.x
-- [x] Ant Design v5.20.x
+- [x] ReactJS v19.0.x
+- [x] Next.js v15.1.x
+- [x] TailwindCSS v4.0.x
+- [x] Ant Design v5.23.x
 - [x] Containerized with Docker (`node:18-alpine` image)
 - [x] CI/CD supported (`Jenkins` & `SonarQube`)
 - [x] Helm command set for k8s
