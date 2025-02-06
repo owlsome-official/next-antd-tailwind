@@ -1,4 +1,4 @@
-@import 'tailwindcss';
+@import "tailwindcss";
 
 @theme {
   --text-*: initial;
@@ -13,6 +13,8 @@
   --text-tiny: 0.512rem;
 
   --font-sans: var(--font-ibm-plex-sans-thai);
+  --color-primary: #9e7a68;
+  --color-accent: #e1dfde;
 }
 
 /*
