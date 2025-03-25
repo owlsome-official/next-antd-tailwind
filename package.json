@@ -1,6 +1,6 @@
 {
   "name": "next-antd-tailwind",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -12,35 +12,35 @@
   },
   "dependencies": {
     "@ant-design/cssinjs": "^1.23.0",
-    "@ant-design/icons": "^5.6.0",
-    "antd": "^5.23.4",
-    "axios": "^1.7.9",
+    "@ant-design/icons": "^6.0.0",
+    "antd": "^5.24.5",
+    "axios": "^1.8.4",
     "dayjs": "^1.11.13",
-    "eslint": "^9.19.0",
-    "eslint-config-next": "^15.1.6",
+    "eslint": "^9.23.0",
+    "eslint-config-next": "^15.2.4",
     "js-base64": "^3.7.7",
     "js-cookie": "^3.0.5",
     "lodash": "^4.17.21",
-    "next": "15.1.6",
+    "next": "15.2.4",
     "pino": "^9.6.0",
     "react": "19.0.0",
     "react-dom": "19.0.0",
-    "react-loading-randomizable": "^1.0.6",
+    "react-loading-randomizable": "^1.1.1",
     "sharp": "^0.33.5"
   },
   "devDependencies": {
-    "@eslint/eslintrc": "^3.2.0",
-    "@eslint/js": "^9.19.0",
-    "@tailwindcss/postcss": "^4.0.3",
+    "@eslint/eslintrc": "^3.3.1",
+    "@eslint/js": "^9.23.0",
+    "@tailwindcss/postcss": "^4.0.15",
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.2.0",
     "classnames": "^2.5.1",
     "jest": "^29.5.0",
     "jest-environment-jsdom": "^29.5.0",
-    "postcss": "^8.5.1",
-    "prettier": "^3.4.2",
+    "postcss": "^8.5.3",
+    "prettier": "^3.5.3",
     "prettier-plugin-tailwindcss": "^0.6.11",
-    "tailwindcss": "^4.0.3"
+    "tailwindcss": "^4.0.15"
   }
 }

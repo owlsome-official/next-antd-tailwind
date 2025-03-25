@@ -1,5 +1,11 @@
 # Changelog
 
+## [v0.5.1] - `2025-03-25`
+
+- Updated dependencies
+
+[v0.5.1]: https://github.com/owlsome-official/next-antd-tailwind/releases/tag/v0.5.1
+
 ## [v0.5.0] - `2025-02-06`
 
 - Upcoming: Next 15, React 19, tailwindCSS v4, eslint 9

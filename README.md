@@ -12,6 +12,7 @@ A boilerplate for Next.js integrated with Ant Design, tailwindcss and a lot of u
   - [📦 Template contains](#-template-contains)
   - [💎 Pre-loaded dependencies](#-pre-loaded-dependencies)
   - [📝 Versions (Last 2 Minor Version)](#-versions-last-2-minor-version)
+    - [v0.5.1 - `2025-03-25`](#v051---2025-03-25)
     - [v0.5.0 - `2025-02-06`](#v050---2025-02-06)
     - [v0.4.2 - `2024-09-20`](#v042---2024-09-20)
     - [v0.4.1 - `2024-09-04`](#v041---2024-09-04)
@@ -40,6 +41,10 @@ npx tailwindcss init -p
 ```
 
 ## 📝 Versions (Last 2 Minor Version)
+
+### v0.5.1 - `2025-03-25`
+
+- Updated dependencies
 
 ### v0.5.0 - `2025-02-06`
 
