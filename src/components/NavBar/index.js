@@ -24,13 +24,13 @@ const NavBar = ({ className }) => {
 
   return (
     <div
-      className={`h-16 flex justify-between items-center px-10 ${className}`}
+      className={`flex h-16 items-center justify-between px-10 ${className}`}
       style={{
         backgroundColor: colorPrimary,
       }}
     >
       <div
-        className="flex gap-8 font-bold text-h5 select-none cursor-pointer items-center"
+        className="text-h5 flex cursor-pointer items-center gap-8 font-bold select-none"
         onClick={handleClickHome}
       >
         <div className="flex items-center">
@@ -39,7 +39,7 @@ const NavBar = ({ className }) => {
         <div>REPLACE_WITH_YOUR_PROJECT_NAME</div>
 
         {/* REMOVABLE */}
-        <Link href="/after_installation" className="border border-red-600 px-6">
+        <Link href="/after_installation" className="border border-white px-6">
           AFTER INSTALLATION!
         </Link>
         {/* REMOVABLE */}
@@ -61,7 +61,7 @@ const ShowCurrentUser = ({ name, onClick }) => {
   };
   return (
     <div
-      className="flex gap-2 text-h5 select-none cursor-pointer"
+      className="text-h5 flex cursor-pointer gap-2 select-none"
       onClick={handleClick}
     >
       <div>Welcome, {name}</div>

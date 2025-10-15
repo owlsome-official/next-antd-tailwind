@@ -11,12 +11,8 @@ A boilerplate for Next.js integrated with Ant Design, tailwindcss and a lot of u
   - [📝 Table of Contents](#-table-of-contents)
   - [📦 Template contains](#-template-contains)
   - [💎 Pre-loaded dependencies](#-pre-loaded-dependencies)
-  - [📝 Versions (Last 2 Minor Version)](#-versions-last-2-minor-version)
-    - [v0.5.1 - `2025-03-25`](#v051---2025-03-25)
-    - [v0.5.0 - `2025-02-06`](#v050---2025-02-06)
-    - [v0.4.2 - `2024-09-20`](#v042---2024-09-20)
-    - [v0.4.1 - `2024-09-04`](#v041---2024-09-04)
-    - [v0.4.0 - `2024-09-04`](#v040---2024-09-04)
+  - [📝 Versions (Latest Version)](#-versions-latest-version)
+    - [v0.6.0 - `2025-10-15`](#v060---2025-10-15)
     - [Version History](#version-history)
   - [📌 Get Started](#-get-started)
     - [Want some more ?](#want-some-more-)
@@ -40,32 +36,11 @@ yarn add --dev @testing-library/jest-dom @testing-library/react autoprefixer jes
 npx tailwindcss init -p
 ```
 
-## 📝 Versions (Last 2 Minor Version)
+## 📝 Versions (Latest Version)
 
-### v0.5.1 - `2025-03-25`
+### v0.6.0 - `2025-10-15`
 
 - Updated dependencies
-
-### v0.5.0 - `2025-02-06`
-
-- Upcoming: Next 15, React 19, tailwindCSS v4, eslint 9
-- Updated dependencies
-- Audit Fixed
-
-### v0.4.2 - `2024-09-20`
-
-- Fixed known vulnerabilities
-- Updated dependencies
-
-### v0.4.1 - `2024-09-04`
-
-- Fixed known vulnerabilities via `npx yarn-audit-fix`
-
-### v0.4.0 - `2024-09-04`
-
-- Added supported cacheHandler with Redis for scalable infrastructure
-- Added Prettier configuration files
-- Updated dockerignore for lean
 
 ### Version History
 

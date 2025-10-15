@@ -1,5 +1,11 @@
 # Changelog
 
+## [v0.6.0] - `2025-10-15`
+
+- Updated dependencies
+
+[v0.6.0]: https://github.com/owlsome-official/next-antd-tailwind/releases/tag/v0.6.0
+
 ## [v0.5.1] - `2025-03-25`
 
 - Updated dependencies
