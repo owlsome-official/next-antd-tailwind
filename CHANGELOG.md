@@ -1,9 +1,21 @@
 # Changelog
 
-## [v0.6.0] - `2025-10-15`
+## [v1.1.0] - `2026-02-23`
+
+- Upgraded to Next.js 16.1.6 (from 15.5.5)
+- Migrated ESLint config from FlatCompat to direct plugin imports
+- Modernized next.config.js with full security headers
+- Migrated cache-handler to @fortedigital/nextjs-cache-handler
+- Updated Dockerfile to node:24-alpine
+- Updated dependencies
+
+[v1.1.0]: https://github.com/owlsome-official/next-antd-tailwind/releases/tag/v1.1.0
+
+## [v1.0.0] and also [v0.6.0] - `2025-10-15`
 
 - Updated dependencies
 
+[v1.0.0]: https://github.com/owlsome-official/next-antd-tailwind/releases/tag/v1.0.0
 [v0.6.0]: https://github.com/owlsome-official/next-antd-tailwind/releases/tag/v0.6.0
 
 ## [v0.5.1] - `2025-03-25`

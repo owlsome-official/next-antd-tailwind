@@ -38,3 +38,6 @@ next-env.d.ts
 .swc
 git_auto.sh
 certificates
+
+_key
+.scannerwork

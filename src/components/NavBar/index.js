@@ -1,14 +1,10 @@
 import { CaretDownOutlined } from "@ant-design/icons";
-import { theme } from "antd";
 import logoSrc from "assets/images/logo200.png";
 import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/router";
 
 const NavBar = ({ className }) => {
-  const {
-    token: { colorPrimary },
-  } = theme.useToken();
   const router = useRouter();
 
   const LoggedInAs = "Alice Wonder";
@@ -24,10 +20,7 @@ const NavBar = ({ className }) => {
 
   return (
     <div
-      className={`flex h-16 items-center justify-between px-10 ${className}`}
-      style={{
-        backgroundColor: colorPrimary,
-      }}
+      className={`bg-accent text-primary flex h-16 items-center justify-between px-10 ${className}`}
     >
       <div
         className="text-h5 flex cursor-pointer items-center gap-8 font-bold select-none"
@@ -39,7 +32,11 @@ const NavBar = ({ className }) => {
         <div>REPLACE_WITH_YOUR_PROJECT_NAME</div>
 
         {/* REMOVABLE */}
-        <Link href="/after_installation" className="border border-white px-6">
+        <Link
+          href="/after_installation"
+          className="border-primary/30 text-small hover:bg-primary/10 rounded-md border px-6 py-1 transition-colors"
+          onClick={(e) => e.stopPropagation()}
+        >
           AFTER INSTALLATION!
         </Link>
         {/* REMOVABLE */}

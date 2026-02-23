@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 
-const path = require("path");
 const { defaultConfig } = require("next/dist/server/config-shared");
+const pkg = require("./package.json");
 
 const cspHeader = `
   script-src 'self' 'unsafe-eval' 'unsafe-inline';
@@ -13,31 +13,89 @@ const cspHeader = `
   form-action 'self';
   frame-ancestors 'none';
 `;
-// default-src 'self';
+
+const baseSecurityHeader = [
+  {
+    key: "X-Frame-Options",
+    value: "DENY",
+  },
+  {
+    key: "X-Content-Type-Options",
+    value: "nosniff",
+  },
+  {
+    key: "Referrer-Policy",
+    value: "no-referrer",
+  },
+  {
+    key: "Permissions-Policy",
+    value:
+      "accelerometer=(),autoplay=(),camera=(),display-capture=(),encrypted-media=(),fullscreen=(),geolocation=(),gyroscope=(),magnetometer=(),microphone=(),midi=(),payment=(),picture-in-picture=(),publickey-credentials-get=(),screen-wake-lock=(),sync-xhr=(self),usb=(),web-share=(),xr-spatial-tracking=()",
+  },
+  {
+    key: "Cross-Origin-Opener-Policy",
+    value: "same-origin",
+  },
+  {
+    key: "Cross-Origin-Resource-Policy",
+    value: "same-origin",
+  },
+  {
+    key: "Strict-Transport-Security",
+    value: "max-age=31536000; includeSubDomains; preload",
+  },
+  {
+    key: "X-Accel-Buffering",
+    value: "no",
+  },
+  {
+    key: "X-DNS-Prefetch-Control",
+    value: "on",
+  },
+  {
+    key: "X-Permitted-Cross-Domain-Policies",
+    value: "none",
+  },
+  {
+    key: "x-powered-by",
+    value: "owlsome-official/next-antd-tailwind",
+  },
+];
+
 const nextConfig = {
   async headers() {
     return [
       {
-        source: "/(.*)",
+        source: "/:path*{/}?",
         headers: [
+          ...baseSecurityHeader,
           {
             key: "Content-Security-Policy",
-            value: cspHeader.replace(/\n/g, ""),
+            value: cspHeader.replaceAll("\n", ""),
+          },
+          {
+            key: "X-App-Version",
+            value: pkg.version,
           },
         ],
       },
     ];
   },
   compiler: {
-    // removeConsole: {
-    //   exclude: process.env.NODE_ENV === "production" ? ["error"] : [],
-    // }, // suppress logs on production
-    reactRemoveProperties: process.env.NODE_ENV === "production", // remove react properties on production (Included: ^data-test)
+    reactRemoveProperties: process.env.NODE_ENV === "production",
   },
   reactStrictMode: true,
   output: "standalone",
+  poweredByHeader: false,
+  generateBuildId: async () => {
+    return (
+      process.env.GIT_COMMIT_SHA ||
+      process.env.GIT_COMMIT_HASH ||
+      process.env.GIT_HASH ||
+      pkg.version
+    );
+  },
   transpilePackages: [
-    // antd & deps
     "@ant-design",
     "@rc-component",
     "antd",
@@ -74,26 +132,6 @@ const nextConfig = {
     "rc-upload",
     "rc-util",
   ],
-  webpack: (config, { buildId, dev, isServer, defaultLoaders, webpack }) => {
-    config.resolve.alias["assets"] = path.resolve(__dirname, "./src/assets/");
-    config.resolve.alias["components"] = path.resolve(
-      __dirname,
-      "./src/components/"
-    );
-    config.resolve.alias["layouts"] = path.resolve(__dirname, "./src/layouts/");
-    config.resolve.alias["pages"] = path.resolve(__dirname, "./src/pages/");
-    config.resolve.alias["styles"] = path.resolve(__dirname, "./src/styles/");
-    config.resolve.alias["utils"] = path.resolve(__dirname, "./src/utils/");
-    return config;
-  },
-  rewrites: async () => {
-    return [
-      {
-        source: "/api/:path*",
-        destination: "http://localhost:5000/api/:path*",
-      },
-    ];
-  },
   cacheHandler:
     process.env.NODE_ENV === "production"
       ? require.resolve("./cache-handler.mjs")
@@ -102,6 +140,14 @@ const nextConfig = {
     process.env.NODE_ENV === "production"
       ? 0
       : defaultConfig.cacheMaxMemorySize,
+  rewrites: async () => {
+    return [
+      {
+        source: "/api/:path*",
+        destination: "http://localhost:5000/api/:path*",
+      },
+    ];
+  },
 };
 
 module.exports = nextConfig;

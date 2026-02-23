@@ -12,20 +12,19 @@ A boilerplate for Next.js integrated with Ant Design, tailwindcss and a lot of u
   - [📦 Template contains](#-template-contains)
   - [💎 Pre-loaded dependencies](#-pre-loaded-dependencies)
   - [📝 Versions (Latest Version)](#-versions-latest-version)
-    - [v0.6.0 - `2025-10-15`](#v060---2025-10-15)
+    - [v1.1.0 - `2026-02-23`](#v110---2026-02-23)
     - [Version History](#version-history)
   - [📌 Get Started](#-get-started)
     - [Want some more ?](#want-some-more-)
 
 ## 📦 Template contains
 
-- [x] ReactJS v19.0.x
-- [x] Next.js v15.1.x
-- [x] TailwindCSS v4.0.x
-- [x] Ant Design v5.23.x
-- [x] Containerized with Docker (`node:18-alpine` image)
+- [x] ReactJS v19.x
+- [x] Next.js v16.x
+- [x] TailwindCSS v4.x
+- [x] Ant Design v5.x
+- [x] Containerized with Docker (`node:24-alpine` image)
 - [x] CI/CD supported (`Jenkins` & `SonarQube`)
-- [x] Helm command set for k8s
 - [x] A bunch of tools/library (e.g. `axios`, `dayjs`, `pino`, etc.)
 
 ## 💎 Pre-loaded dependencies
@@ -38,8 +37,13 @@ npx tailwindcss init -p
 
 ## 📝 Versions (Latest Version)
 
-### v0.6.0 - `2025-10-15`
+### v1.1.0 - `2026-02-23`
 
+- Upgraded to Next.js 16.1.6 (from 15.5.5)
+- Migrated ESLint config from FlatCompat to direct plugin imports
+- Modernized next.config.js with full security headers
+- Migrated cache-handler to @fortedigital/nextjs-cache-handler
+- Updated Dockerfile to node:24-alpine
 - Updated dependencies
 
 ### Version History

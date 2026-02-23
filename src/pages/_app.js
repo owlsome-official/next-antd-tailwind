@@ -11,9 +11,12 @@ const fontRegularIBMPlexSansThai = IBM_Plex_Sans_Thai({
 
 const theme = {
   token: {
-    colorPrimary: "#9e7a68",
-    colorSecondary: "#e1dfde",
-    wireframe: true,
+    colorPrimary: "#5b6b82",
+    colorBgBase: "#f8f7f4",
+    colorTextBase: "#2d3748",
+    colorLink: "#5b6b82",
+    borderRadius: 8,
+    wireframe: false,
   },
 };
 
@@ -21,7 +24,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <ConfigProvider locale={thTH} theme={theme}>
       <main
-        className={`${fontRegularIBMPlexSansThai.variable} flex min-h-screen flex-col`}
+        className={`${fontRegularIBMPlexSansThai.variable} flex min-h-screen flex-col bg-[#f8f7f4] text-[#2d3748]`}
       >
         <Component {...pageProps} />
       </main>

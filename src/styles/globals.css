@@ -13,18 +13,16 @@
   --text-tiny: 0.512rem;
 
   --font-sans: var(--font-ibm-plex-sans-thai);
-  --color-primary: #9e7a68;
-  --color-accent: #e1dfde;
+
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-primary: #f1f0ec;
+  --color-primary-deep: #d8d6d0;
+  --color-accent: #4a5568;
+  --color-accent-soft: #5b6b82;
+  --color-warm: #c4b5a0;
 }
 
-/*
-  The default border color has changed to `currentColor` in Tailwind CSS v4,
-  so we've added these compatibility styles to make sure everything still
-  looks the same as it did with Tailwind CSS v3.
-
-  If we ever want to remove these styles, we need to add an explicit border
-  color utility to any element that depends on these defaults.
-*/
 @layer base {
   *,
   ::after,
@@ -33,6 +31,15 @@
   ::file-selector-button {
     border-color: var(--color-gray-200, currentColor);
   }
+}
+
+@utility glass-effect {
+  @apply rounded-lg border border-solid border-white/20 bg-white/25 shadow-lg backdrop-blur-xl;
+}
+
+:root {
+  --background: #f8f7f4;
+  --foreground: #2d3748;
 }
 
 html,
@@ -44,8 +51,8 @@ body {
   min-height: 100vh;
   max-width: 100vw;
   overflow-x: hidden;
-  color: "#0C0C0C";
-  background-color: "#f9f9f9";
+  color: var(--foreground);
+  background-color: var(--background);
 }
 
 html {

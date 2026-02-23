@@ -25,7 +25,6 @@ REPLACE_WITH_YOUR_PROJECT_NAME is ...
 - [x] Ant Design v5.6.x
 - [x] Containerized with Docker (`node:18-alpine` image)
 - [x] CI/CD supported (`Jenkins` & `SonarQube`)
-- [x] Helm command set for k8s
 - [x] A bunch of tools/library (e.g. `axios`, `dayjs`, `pino`, etc.)
 
 ## ⚒ Structure
