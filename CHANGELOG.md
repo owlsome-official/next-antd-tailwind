@@ -1,5 +1,13 @@
 # Changelog
 
+## [v1.2.0] - `2026-03-05`
+
+- Removed unused Ant Design components from next.config.js
+- Updated dependencies including major version upgrades for @ant-design packages and eslint
+- Improved package management in yarn.lock
+
+[v1.2.0]: https://github.com/owlsome-official/next-antd-tailwind/releases/tag/v1.2.0
+
 ## [v1.1.0] - `2026-02-23`
 
 - Upgraded to Next.js 16.1.6 (from 15.5.5)
