@@ -12,7 +12,7 @@ A boilerplate for Next.js integrated with Ant Design, tailwindcss and a lot of u
   - [📦 Template contains](#-template-contains)
   - [💎 Pre-loaded dependencies](#-pre-loaded-dependencies)
   - [📝 Versions (Latest Version)](#-versions-latest-version)
-  - [\[v1.2.0\] - `2026-03-05`](#v120---2026-03-05)
+  - [\[v1.2.1\] - `2026-09-08`](#v121---2026-09-08)
     - [Version History](#version-history)
   - [📌 Get Started](#-get-started)
     - [Want some more ?](#want-some-more-)
@@ -22,7 +22,7 @@ A boilerplate for Next.js integrated with Ant Design, tailwindcss and a lot of u
 - [x] ReactJS v19.x
 - [x] Next.js v16.x
 - [x] TailwindCSS v4.x
-- [x] Ant Design v5.x
+- [x] Ant Design v6.x
 - [x] Containerized with Docker (`node:24-alpine` image)
 - [x] CI/CD supported (`Jenkins` & `SonarQube`)
 - [x] A bunch of tools/library (e.g. `axios`, `dayjs`, `pino`, etc.)
@@ -37,11 +37,9 @@ npx tailwindcss init -p
 
 ## 📝 Versions (Latest Version)
 
-## [v1.2.0] - `2026-03-05`
+## [v1.2.1] - `2026-09-08`
 
-- Removed unused Ant Design components from next.config.js
-- Updated dependencies including major version upgrades for @ant-design packages and eslint
-- Improved package management in yarn.lock
+- Updated dependencies
 
 ### Version History
 

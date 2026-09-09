@@ -1,5 +1,11 @@
 # Changelog
 
+## [v1.2.1] - `2026-09-08`
+
+- Updated dependencies
+
+[v1.2.1]: https://github.com/owlsome-official/next-antd-tailwind/releases/tag/v1.2.1
+
 ## [v1.2.0] - `2026-03-05`
 
 - Removed unused Ant Design components from next.config.js
